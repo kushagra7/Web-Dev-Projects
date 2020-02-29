@@ -1,0 +1,193 @@
+body{
+  font-family: sans-serif;
+  height:100%;
+  margin-left: 0%;
+  margin-top:0%;
+
+}
+
+.flex-container {
+    display: flex;
+    background-color: #00838f;
+    margin: 0;
+  }
+  
+  #column-left {
+    background-color: #00838f;
+    margin: 10px;
+    padding: 20px;
+    flex:1;
+    
+    
+  }
+
+  #column-right{
+    margin-top:0;
+    background-color: white;
+    padding: 20px;
+    flex:3;
+
+
+  }
+
+  img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+  }
+
+  .name{
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: x-large;
+
+  }
+
+  .normal-font{
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  /* navbar below */
+  .vertical-menu {
+  
+  }
+  
+  .vertical-menu a {
+    background-color: #00838f;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    color: #2b2a2a;
+  }
+  
+
+  .cR-font{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #small-column{
+    width:70%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+hr{
+  border: none;
+  height: 2px;
+  /* Set the hr color */
+  color: blue; /* old IE */
+  background-color: blue; /* Modern Browsers */
+}
+  
+
+/*Card below*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.container-row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.colum {
+  text-align: center;
+  flex: 50%;
+  padding: 10px;
+  height: 20%; 
+}
+
+.h{
+  width:80%;
+  background-color:#ff1744;
+}
+
+ul li {
+  color: #3c3c3c; 
+  /* set color of list item text */
+
+  display: inline-block;
+  list-style: none; 
+  margin: 0 0 16px 1.1225em;
+  padding: 0;
+  position: relative;
+}
+ul{
+  text-align: left;
+}
+
+.red {list-style: none;}
+
+.red::before {
+    content: '\2022';
+    padding-right: 1em;
+    color: red;
+    
+}
+
+
+
+/* Float four columns side by side */
+.colu {
+  float: left;
+  width: 40%;
+  padding: 0 10px;
+  text-align: center;
+}
+
+/* Remove extra left and right margins, due to padding */
+.ro {
+margin-left: 10%;
+margin-top:4%;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card-new {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+ 
+  background-color: white;
+}
+
+
+
+.ol{
+  text-align: left;
+  margin-left: 15%;
+  padding-bottom: 5%;
+}
+
+.center{
+  margin-top: 0;
+  text-align: center;
+}
+
+.white{
+  color: white;}
+
+  a:hover{
+      background-color: yellow;
+  }
